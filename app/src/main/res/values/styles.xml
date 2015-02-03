@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Workaholic.Dialog" parent="@android:style/Theme.Holo.Dialog.NoActionBar.MinWidth">
+        <item name="android:textColorHighlight">#9934495e</item>
+	    <item name="android:textSelectHandleLeft">@drawable/workaholic_text_select_handle_left</item>
+	    <item name="android:textSelectHandleRight">@drawable/workaholic_text_select_handle_right</item>
+	    <item name="android:textSelectHandle">@drawable/workaholic_text_select_handle_middle</item>
+	
+	    <item name="android:listChoiceIndicatorMultiple">@drawable/workaholic_btn_check_holo_light</item>
+	
+	    <item name="android:buttonStyle">@style/ButtonWorkaholic</item>
+	
+	    <item name="android:imageButtonStyle">@style/ImageButtonWorkaholic</item>
+	
+	    <item name="android:progressBarStyleHorizontal">@style/ProgressBarWorkaholic</item>
+	
+	    <item name="android:listChoiceBackgroundIndicator">@drawable/workaholic_list_selector_holo_light</item>
+	
+	    <item name="android:activatedBackgroundIndicator">@drawable/workaholic_activated_background_holo_light</item>
+    </style>
+    
+    <style name="Theme.Workaholic" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_workaholic</item>
+        <item name="android:popupMenuStyle">@style/PopupMenu.Workaholic</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Workaholic</item>
+        <item name="android:actionBarTabStyle">@style/ActionBarTabStyle.Workaholic</item>
+        <item name="android:actionDropDownStyle">@style/DropDownNav.Workaholic</item>
+        <item name="android:actionBarStyle">@style/ActionBar.Solid.Workaholic</item>
+        <item name="android:actionModeBackground">@drawable/cab_background_top_workaholic</item>
+        <item name="android:actionModeSplitBackground">@drawable/cab_background_top_workaholic</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Workaholic</item>
+        
+        <item name="android:textColorHighlight">#9934495e</item>
+	    <item name="android:textSelectHandleLeft">@drawable/workaholic_text_select_handle_left</item>
+	    <item name="android:textSelectHandleRight">@drawable/workaholic_text_select_handle_right</item>
+	    <item name="android:textSelectHandle">@drawable/workaholic_text_select_handle_middle</item>
+	
+	    <item name="android:listChoiceIndicatorMultiple">@drawable/workaholic_btn_check_holo_light</item>
+	
+	    <item name="android:buttonStyle">@style/ButtonWorkaholic</item>
+	
+	    <item name="android:imageButtonStyle">@style/ImageButtonWorkaholic</item>
+	
+	    <item name="android:progressBarStyleHorizontal">@style/ProgressBarWorkaholic</item>
+	
+	    <item name="android:listChoiceBackgroundIndicator">@drawable/workaholic_list_selector_holo_light</item>
+	
+	    <item name="android:activatedBackgroundIndicator">@drawable/workaholic_activated_background_holo_light</item>
+
+        <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.Workaholic.Widget</item>
+    </style>
+
+    <style name="ActionBar.Solid.Workaholic" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_workaholic</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_workaholic</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_workaholic</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Workaholic</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Workaholic" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_workaholic</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Workaholic</item>
+    </style>
+
+    <style name="PopupMenu.Workaholic" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_workaholic</item>
+    </style>
+
+    <style name="DropDownListView.Workaholic" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_workaholic</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Workaholic" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_workaholic</item>
+    </style>
+
+    <style name="DropDownNav.Workaholic" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_workaholic</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_workaholic</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_workaholic</item>
+    </style>
+
+    <style name="ProgressBar.Workaholic" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_workaholic</item>
+    </style>
+
+    <style name="ActionButton.CloseMode.Workaholic" parent="@android:style/Widget.Holo.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_workaholic</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Workaholic.Widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/PopupMenu.Workaholic</item>
+        <item name="android:dropDownListViewStyle">@style/DropDownListView.Workaholic</item>
+    </style>
+    
+    <style name="AccountFormContainer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingLeft">30dp</item>
+        <item name="android:paddingRight">30dp</item>
+        <item name="android:paddingBottom">30dp</item>
+        <item name="android:background">@drawable/login_background</item>
+    </style>
+    
+    <style name="LoginFormContainer" parent="@style/AccountFormContainer">
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+    
+    <style name="LoginActivityField">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:background">@drawable/edit_text_workaholic</item>
+    </style>
+    
+    <style name="LoginActivityField.Email">
+        <item name="android:hint">@string/prompt_email</item>
+        <item name="android:inputType">textEmailAddress</item>
+    </style>
+    
+    <style name="LoginActivityField.Password">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:imeActionId">@+id/login</item>
+        <item name="android:imeActionLabel">@string/sign_in</item>
+        <item name="android:imeOptions">actionUnspecified</item>
+    </style>
+    
+    <style name="LoginActivityField.Password.Normal">
+        <item name="android:hint">@string/prompt_password</item>
+    </style>
+    
+    <style name="LoginActivityField.Password.Repeat">
+        <item name="android:hint">@string/repeat_password</item>
+    </style>
+    
+    <style name="ButtonWorkaholic" parent="android:Widget.Holo.Light.Button">
+	  	<item name="android:background">@drawable/workaholic_btn_default_holo_light</item>
+  	</style>
+
+  	<style name="ImageButtonWorkaholic" parent="android:Widget.Holo.Light.ImageButton">
+	  	<item name="android:background">@drawable/workaholic_btn_default_holo_light</item>
+  	</style>
+	
+  	<style name="ProgressBarWorkaholic" parent="android:Widget.Holo.Light.ProgressBar.Horizontal">
+      	<item name="android:progressDrawable">@drawable/workaholic_progress_horizontal_holo_light</item>
+      	<item name="android:indeterminateDrawable">@drawable/workaholic_progress_indeterminate_horizontal_holo_light</item>
+  	</style>
+
+</resources>

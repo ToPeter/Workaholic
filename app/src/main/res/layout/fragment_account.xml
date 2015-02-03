@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AccountFormContainer"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dip"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/red_workaholic" />
+
+        <TextView
+            android:id="@+id/account_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="Your Account:"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dip"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@color/red_workaholic" />
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        
+	        <TextView
+	        android:id="@+id/account_firstN"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:text="first name:"
+	        android:fontFamily="sans-serif-condensed"
+	        android:gravity="center"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	        android:id="@+id/account_firstN_value"
+	        android:layout_width="0dp"
+	        android:layout_weight="2"
+	        android:layout_height="match_parent"
+	        android:fontFamily="sans-serif-condensed"
+	        android:gravity="center"
+	        android:text="Marek"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal">
+        
+	        <TextView
+	        android:id="@+id/account_lastN"
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="match_parent"
+	        android:gravity="center"
+	        android:fontFamily="sans-serif-condensed"
+	        android:text="last name:"
+	        android:textAppearance="?android:attr/textAppearanceSmall" />
+	        
+	        <TextView
+	        android:id="@+id/account_lastN_value"
+	        android:layout_width="0dp"
+	        android:layout_weight="2"
+	        android:layout_height="match_parent"
+	        android:fontFamily="sans-serif-condensed"
+	        android:gravity="center"
+	        android:text="Rigan"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/account_email"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="11dp"
+        android:gravity="bottom"
+        android:fontFamily="sans-serif-condensed"
+        android:text="email:"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    <TextView
+        android:id="@+id/account_email_value"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center"
+        android:layout_weight="2"
+        android:text="rigan.marek@gmail.com"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+	<LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="2"
+	        android:orientation="horizontal">
+	        
+		        <TextView
+			        android:id="@+id/account_nOfJobs"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:layout_height="match_parent"
+			        android:fontFamily="sans-serif-condensed"
+			        android:gravity="center"
+			        android:text="number of jobs:"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			    <TextView
+			        android:id="@+id/account_nOfJobs_value"
+			        android:layout_width="0dp"
+			        android:layout_weight="2"
+			        android:fontFamily="sans-serif-condensed"
+			        android:gravity="center"
+			        android:layout_height="match_parent"
+			        android:text="3"
+			        android:textAppearance="?android:attr/textAppearanceLarge" />
+	        
+	 </LinearLayout>
+
+	<View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/red_workaholic"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="1dp" />
+	
+	<ImageView 
+	    android:layout_width="match_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="3"
+	    android:src="@drawable/ad_banner"
+	    android:contentDescription="@string/dummy_content"/>
+	
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/red_workaholic"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="5dp" />
+
+    <LinearLayout 
+	        android:layout_width="match_parent"
+	        android:layout_height="0dp"
+	        android:layout_weight="3"
+	        android:orientation="horizontal">
+	        
+		        <Button
+			        android:id="@+id/account_editInfo"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:layout_height="match_parent"
+			        android:text="Edit Information" 
+			        android:textColor="@android:color/white"
+			        android:background="@drawable/green_btn_default_holo_dark"/>
+			
+			    <Button
+			        android:id="@+id/account_changePassword"
+			        android:layout_width="0dp"
+			        android:layout_weight="1"
+			        android:layout_height="match_parent"
+			        android:text="Change Password" 
+			        android:textColor="@android:color/white"
+				    android:background="@drawable/red_btn_default_holo_dark"/>
+	        
+	 </LinearLayout>
+    
+    
+
+</LinearLayout>

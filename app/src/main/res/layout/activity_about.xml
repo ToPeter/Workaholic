@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp"
+    android:paddingBottom="30dp" >
+
+    <TextView
+        android:id="@+id/about_alterway_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_alterway_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp"
+        android:autoLink="web"
+        android:text="@string/about_alterway_link"
+        android:gravity="center"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/about_alterway_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/about_workaholic_text"
+        android:layout_below="@+id/about_workaholic_text"
+        android:layout_marginTop="18dp"
+        android:text="@string/about_alterway_text"
+		android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/about_workaholic_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        android:text="@string/about_workaholic_title"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/about_workaholic_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_workaholic_title"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/about_workaholic_text" />
+    
+</RelativeLayout>

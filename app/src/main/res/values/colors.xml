@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="workaholic_color">#16a085</color>
+    <color name="highlight_workaholic">#1abc9c</color>
+    <color name="dark_workaholic">#34495e</color>
+    <color name="red_workaholic">#F0593C</color>
+    <color name="green_workaholic">#27ae60</color>
+    <color name="shade_workaholic">#bdc3c7</color>
+
+    <color name="event_color_01">#59dbe0</color>
+    <color name="event_color_02">#f57f68</color>
+    <color name="event_color_03">#87d288</color>
+    <color name="event_color_04">#f8b552</color>
+</resources>
